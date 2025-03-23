@@ -11,10 +11,10 @@
     }
   ],
   "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@next_public_supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@next_public_supabase_anon_key",
-    "NEXT_PUBLIC_SITE_URL": "@next_public_site_url",
-    "NEXT_PUBLIC_SITE_NAME": "@next_public_site_name",
-    "NEXT_PUBLIC_SITE_DESCRIPTION": "@next_public_site_description"
+    "NEXT_PUBLIC_SUPABASE_URL": "https://eqpagartzvqcdoxcsfyi.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVxcGFnYXJ0enZxY2RveGNzZnlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3MDMwMjksImV4cCI6MjA1ODI3OTAyOX0.oHg3Z0JaEEkQLziuWwiAnQSViDALaisK-pqrLR1x4BY",
+    "NEXT_PUBLIC_SITE_URL": "https://web-opsfx.vercel.app",
+    "NEXT_PUBLIC_SITE_NAME": "opsfx",
+    "NEXT_PUBLIC_SITE_DESCRIPTION": "Operations and automation-focused web and community development agency"
   }
 } 
