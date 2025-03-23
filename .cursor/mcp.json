@@ -1,0 +1,17 @@
+{
+  "tools": {
+    "firecrawl": {
+      "name": "firecrawl",
+      "description": "Use Firecrawl to analyze websites and extract structured data",
+      "api_key": "fc-7c536f3ee3d941ea9369d15fb9af7bd7",
+      "settings": {
+        "formats": ["markdown", "html"],
+        "maxDepth": 3,
+        "scrapeOptions": {
+          "waitForSelector": "body",
+          "timeout": 30000
+        }
+      }
+    }
+  }
+} 
