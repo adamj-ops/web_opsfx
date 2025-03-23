@@ -1,15 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "next build",
-  "devCommand": "next dev",
-  "installCommand": "npm install",
   "framework": "nextjs",
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
   "env": {
     "NEXT_PUBLIC_SUPABASE_URL": "https://eqpagartzvqcdoxcsfyi.supabase.co",
     "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVxcGFnYXJ0enZxY2RveGNzZnlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3MDMwMjksImV4cCI6MjA1ODI3OTAyOX0.oHg3Z0JaEEkQLziuWwiAnQSViDALaisK-pqrLR1x4BY",
