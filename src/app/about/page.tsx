@@ -59,7 +59,7 @@ const values = [
   },
   {
     title: 'Client Success',
-    description: 'Your success is our success. We're committed to delivering solutions that drive real business value.',
+    description: "Your success is our success. We're committed to delivering solutions that drive real business value.",
     icon: (
       <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path

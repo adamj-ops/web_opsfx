@@ -213,7 +213,7 @@ const projects = [
   },
   {
     title: 'Digital Workspace Transformation',
-    description: 'Transforming a 200-person company's scattered digital tools into a streamlined, no-code operational hub.',
+    description: "Transforming a 200-person company's scattered digital tools into a streamlined, no-code operational hub.",
   },
   {
     title: 'Process Optimization Suite',
