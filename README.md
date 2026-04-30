@@ -1,105 +1,104 @@
-# OpsFx Website
+![Inkly Social Preview](./public/og.png)
 
-## Project Overview
-OpsFx is an operations and automation-focused web and community development agency. This website serves as our digital showcase of capabilities and approach.
+<p align="center">
+    <a aria-label="Inkly's Website" href="https://inkly.hrcd.fr">
+        <img alt="" src="https://img.shields.io/badge/Website-Inkly-blue?style=for-the-badge&labelColor=000000&logo=google-chrome&logoColor=white">
+<a aria-label="Hugo's Website" href="https://hrcd.fr">
+        <img alt="" src="https://img.shields.io/badge/Author-Hugo Richard-blue?style=for-the-badge&labelColor=000000&logo=google-chrome&logoColor=white">
+  <a aria-label="License" href="https://github.com/hugorcd/inkly/blob/master/LICENSE">
+    <img alt="" src="https://img.shields.io/npm/l/vue.svg?style=for-the-badge&labelColor=000000&color=blue">
+    </a>
+  <a aria-label="Follow Hugo on Twitter" href="https://twitter.com/HugoRCD__">
+    <img alt="" src="https://img.shields.io/twitter/follow/HugoRCD__.svg?style=for-the-badge&labelColor=000000&logo=twitter&label=Follow%20Hugo&logoWidth=20&logoColor=white">
+  </a>
+</p>
 
-## Technology Stack
-- Next.js 14 (App Router)
-- React with TypeScript
-- Tailwind CSS for styling
-- Framer Motion for animations
-- Firecrawl for competitive research
+# Inkly
 
-## Features
-- Modern, responsive design
-- Animated UI components
-- Dark mode support
-- SEO optimized
-- Performance focused
-- Modular architecture
+Inkly is a simple open-source email signature generator made with [Nuxt](https://nuxt.com/) and [Tailwind CSS](https://tailwindcss.com/).
 
-## Getting Started
+## Live website
 
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-- Firecrawl API Key (for competitive research features)
+You can see it live at [inkly.hrcd.fr](https://inkly.hrcd.fr/).
 
-### Installation
+## Quick Setup
 
-1. Clone the repository:
+1. Clone this repository if you have access or download it from the store
 ```bash
-git clone https://github.com/yourusername/web_opsfx.git
-cd web_opsfx
+git clone git@github.com:HugoRCD/inkly.git
 ```
 
-2. Install dependencies:
+2. Install dependencies
 ```bash
-npm install
-# or
-yarn install
+bun install
 ```
 
-3. Set up environment variables:
+3. Start development server
 ```bash
-cp .env.example .env.local
+bun dev
 ```
-Edit `.env.local` and add your Firecrawl API key.
 
-4. Start the development server:
+4. Generate static project
 ```bash
-npm run dev
-# or
-yarn dev
+bun generate
 ```
 
-The site will be available at `http://localhost:3000`.
-
-## Project Structure
-```
-src/
-├── app/             # App router pages and layouts
-├── components/      # Reusable React components
-├── lib/            # Utility functions and configurations
-├── styles/         # Global styles and Tailwind config
-└── types/          # TypeScript type definitions
+5. Start production server
+```bash
+bun start
 ```
 
-## Development Guidelines
-- Follow TypeScript best practices
-- Use Tailwind CSS for styling
-- Implement responsive design patterns
-- Write clean, documented code
-- Follow ESLint rules
-
-## Available Scripts
-- `npm run dev` - Start development server
-- `npm run build` - Build production version
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-- `npm run test` - Run tests (when implemented)
-
-## Deployment
-The project is optimized for deployment on Vercel:
-1. Connect your GitHub repository to Vercel
-2. Configure environment variables
-3. Deploy automatically with git push
-
-## Roadmap
-- [ ] Complete service pages
-- [ ] Implement case studies
-- [ ] Add contact forms
-- [ ] Develop community resources section
-
-## Design Inspiration
-Inspired by modern, minimalist design principles with a focus on technical elegance.
+<!-- automd:fetch url="gh:hugorcd/markdown/main/src/contributions.md" -->
 
 ## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+To start contributing, you can follow these steps:
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+1. First raise an issue to discuss the changes you would like to make.
+2. Fork the repository.
+3. Create a branch using conventional commits and the issue number as the branch name. For example, `feat/123` or `fix/456`.
+4. Make changes following the local development steps.
+5. Commit your changes following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification.
+6. If your changes affect the code, run tests using `bun run test`.
+7. Create a pull request following the [Pull Request Template](https://github.com/HugoRCD/markdown/blob/main/src/pull_request_template.md).
+   - To be merged, the pull request must pass the tests/workflow and have at least one approval.
+   - If your changes affect the documentation, make sure to update it.
+   - If your changes affect the code, make sure to update the tests.
+8. Wait for the maintainers to review your pull request.
+9. Once approved, the pull request will be merged in the next release !
+
+<!-- /automd -->
+
+<!-- automd:fetch url="gh:hugorcd/markdown/main/src/local_development_dev.md" -->
+
+<details>
+  <summary>Local development</summary>
+
+- Clone this repository
+- Install latest LTS version of [Node.js](https://nodejs.org/en/)
+- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`
+- Install dependencies using `bun install`
+- Start development server using `bun dev`
+- Open [http://localhost:3000](http://localhost:3000) in your browser
+
+</details>
+
+<!-- /automd -->
+
+<!-- automd:contributors license=Apache author=HugoRCD github="hugorcd/inkly" -->
+
+Published under the [APACHE](https://github.com/hugorcd/inkly/blob/main/LICENSE) license.
+Made by [@HugoRCD](https://github.com/HugoRCD) and [community](https://github.com/hugorcd/inkly/graphs/contributors) 💛
+<br><br>
+<a href="https://github.com/hugorcd/inkly/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=hugorcd/inkly" />
+</a>
+
+<!-- /automd -->
+
+<!-- automd:with-automd lastUpdate -->
+
+---
+
+_🤖 auto updated with [automd](https://automd.unjs.io) (last updated: Sat Aug 31 2024)_
+
+<!-- /automd -->
