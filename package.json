@@ -1,32 +1,39 @@
 {
-  "name": "web_opsfx",
-  "version": "0.1.0",
+  "name": "inkly",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "type": "module",
+  "description": "A simple email signature generator",
+  "author": "HugoRCD",
+  "funding": "https://github.com/sponsors/HugoRCD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoRCD/inkly.git"
   },
-  "dependencies": {
-    "@heroicons/react": "^2.1.1",
-    "@supabase/supabase-js": "^2.49.1",
-    "clsx": "^2.1.0",
-    "framer-motion": "^11.0.8",
-    "next": "14.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tailwind-merge": "^2.2.1"
+  "bugs": {
+    "url": "https://github.com/HugoRCD/inkly/issues"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "automd": "automd",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.1.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.3.3"
+    "@hrcd/eslint-config": "^3.0.3",
+    "@nuxt/scripts": "^0.13.4",
+    "@nuxt/ui": "^4.6.1",
+    "@vueuse/core": "^13.9.0",
+    "@vueuse/nuxt": "^13.9.0",
+    "automd": "^0.4.3",
+    "eslint": "^9.39.4",
+    "nuxt": "^4.4.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
